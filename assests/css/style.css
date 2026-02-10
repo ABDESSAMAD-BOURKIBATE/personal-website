@@ -370,8 +370,25 @@ header .navbar ul li a:hover {
   background-color: #070707;
 }
 
+
 .social-icons a.instagram:hover {
   background-color: #0685da;
+}
+
+.social-icons a.orcid:hover {
+  background-color: #a6ce39;
+}
+
+.social-icons a.scholar:hover {
+  background-color: #4285f4;
+}
+
+.social-icons a.leetcode:hover {
+  background-color: #ffa116;
+}
+
+.social-icons a.telegram:hover {
+  background-color: #0088cc;
 }
 
 /* social icons end */
@@ -462,8 +479,8 @@ header .navbar ul li a:hover {
 
 .about .row .content .box-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  /* Responsive grid */
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  /* Responsive grid - allows side by side */
   gap: 1.5rem;
   margin-top: 2rem;
 }
@@ -471,11 +488,12 @@ header .navbar ul li a:hover {
 .about .row .content .box-container .box {
   background: white;
   border-radius: 1rem;
-  padding: 1.5rem;
-  /* More compact */
+  padding: 1rem;
+  /* Compact padding */
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1rem;
+  /* Reduced gap */
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease;
   border: 1px solid rgba(0, 0, 0, 0.05);
@@ -489,16 +507,16 @@ header .navbar ul li a:hover {
 }
 
 .about .row .content .box-container .box .icon {
-  height: 4.5rem;
-  /* Smaller icon */
-  width: 4.5rem;
-  line-height: 4.5rem;
+  height: 3.5rem;
+  /* Compact icon */
+  width: 3.5rem;
+  line-height: 3.5rem;
   text-align: center;
   border-radius: 50%;
   background: #f0f0f0;
   /* Default gray */
   color: #555;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   flex-shrink: 0;
   transition: all 0.3s ease;
 }
@@ -509,12 +527,13 @@ header .navbar ul li a:hover {
 }
 
 .about .row .content .box-container .box .text h3 {
-  font-size: 1.2rem;
+  font-size: 1rem;
+  /* Smaller label */
   color: #777;
   text-transform: uppercase;
   font-weight: 700;
-  letter-spacing: 1px;
-  margin-bottom: 0.2rem;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.1rem;
   transition: color 0.3s;
 }
 
@@ -523,12 +542,43 @@ header .navbar ul li a:hover {
 }
 
 .about .row .content .box-container .box .text p {
-  font-size: 1.4rem;
+  font-size: 1.15rem;
+  /* Smaller font for single line fit */
   color: #444;
   font-weight: 600;
-  word-break: break-all;
-  /* Prevent breaking */
+  word-break: break-word;
+  line-height: 1.2;
   text-transform: none;
+}
+
+/* Mobile responsive for About Cards */
+@media (max-width: 500px) {
+  .about .row .content .box-container {
+    grid-template-columns: 1fr;
+    /* Stack on mobile */
+  }
+
+  .about .row .content .box-container .box {
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .about .row .content .box-container .box .icon {
+    height: 3.5rem;
+    width: 3.5rem;
+    line-height: 3.5rem;
+    font-size: 1.5rem;
+  }
+
+  .about .row .content .box-container .box .text h3 {
+    font-size: 1rem;
+  }
+
+  .about .row .content .box-container .box .text p {
+    font-size: 1.1rem;
+    /* Smaller font on mobile */
+    align-self: center;
+  }
 }
 
 /* Dark Mode Overrides for New About Cards */

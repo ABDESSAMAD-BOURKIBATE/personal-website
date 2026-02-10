@@ -1,33 +1,33 @@
-$(document).ready(function(){
+$(document).ready(function () {
 
-    $('#menu').click(function(){
+    $('#menu').click(function () {
         $(this).toggleClass('fa-times');
         $('.navbar').toggleClass('nav-toggle');
     });
 
-    $(window).on('scroll load',function(){
+    $(window).on('scroll load', function () {
         $('#menu').removeClass('fa-times');
         $('.navbar').removeClass('nav-toggle');
 
-        if(window.scrollY>60){
+        if (window.scrollY > 60) {
             document.querySelector('#scroll-top').classList.add('active');
-        }else{
+        } else {
             document.querySelector('#scroll-top').classList.remove('active');
         }
     });
 });
 
 document.addEventListener('visibilitychange',
-function(){
-    if(document.visibilityState === "visible"){
-        document.title = "Projects | Portfolio Avinash Anand";
-        $("#favicon").attr("href","/assests/images/favicon.png");
-    }
-    else {
-        document.title = "Come Back To Portfolio";
-        
-    }
-});
+    function () {
+        if (document.visibilityState === "visible") {
+            document.title = "Projects | Portfolio Abdessamad";
+            $("#favicon").attr("href", "/assests/images/favicon.png");
+        }
+        else {
+            document.title = "Come Back To Portfolio";
+
+        }
+    });
 
 
 // fetch projects start
@@ -63,22 +63,22 @@ function showProjects(projects) {
     });
     projectsContainer.innerHTML = projectsHTML;
 
-// vanilla tilt.js
-VanillaTilt.init(document.querySelectorAll(".tilt"), {
-    max: 20,
-});
-// vanilla tilt.js  
+    // vanilla tilt.js
+    VanillaTilt.init(document.querySelectorAll(".tilt"), {
+        max: 20,
+    });
+    // vanilla tilt.js  
 
-/* ===== SCROLL REVEAL ANIMATION ===== */
-const srtop = ScrollReveal({
-    origin: 'bottom',
-    distance: '80px',
-    duration: 1000,
-    reset: true
-});
+    /* ===== SCROLL REVEAL ANIMATION ===== */
+    const srtop = ScrollReveal({
+        origin: 'bottom',
+        distance: '80px',
+        duration: 1000,
+        reset: true
+    });
 
-/* SCROLL PROJECTS */
-srtop.reveal('.work .box',{interval: 200}); 
+    /* SCROLL PROJECTS */
+    srtop.reveal('.work .box', { interval: 200 });
 }
 
 getProjects().then(data => {
@@ -99,20 +99,20 @@ getProjects().then(data => {
 // End of Tawk.to Live Chat
 
 // disable developer mode
-document.onkeydown = function(e) {
-  if(e.keyCode == 123) {
-     return false;
-  }
-  if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
-     return false;
-  }
-  if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
-     return false;
-  }
-  if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
-     return false;
-  }
-  if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
-     return false;
-  }
+document.onkeydown = function (e) {
+    if (e.keyCode == 123) {
+        return false;
+    }
+    if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+        return false;
+    }
+    if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+        return false;
+    }
+    if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+        return false;
+    }
+    if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+        return false;
+    }
 }
