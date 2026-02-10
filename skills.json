@@ -1,5 +1,53 @@
 [
     {
+        "name": "Python",
+        "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
+    },
+    {
+        "name": "TensorFlow",
+        "icon": "https://img.icons8.com/color/48/000000/tensorflow.png"
+    },
+    {
+        "name": "Machine Learning",
+        "icon": "https://img.icons8.com/color/48/000000/artificial-intelligence.png"
+    },
+    {
+        "name": "Deep Learning",
+        "icon": "https://img.icons8.com/color/48/brain.png"
+    },
+    {
+        "name": "Kali Linux",
+        "icon": "https://img.icons8.com/color/48/000000/kali-linux.png"
+    },
+    {
+        "name": "Cyber Security",
+        "icon": "https://img.icons8.com/color/48/000000/cyber-security.png"
+    },
+    {
+        "name": "Network Security",
+        "icon": "https://img.icons8.com/color/48/shield.png"
+    },
+    {
+        "name": "Ethical Hacking",
+        "icon": "https://img.icons8.com/color/48/000000/hacking.png"
+    },
+    {
+        "name": "Wireshark",
+        "icon": "https://img.icons8.com/color/48/shark.png"
+    },
+    {
+        "name": "Cryptography",
+        "icon": "https://img.icons8.com/color/48/000000/lock--v1.png"
+    },
+    {
+        "name": "Linux",
+        "icon": "https://img.icons8.com/color/48/000000/linux--v1.png"
+    },
+    {
+        "name": "Docker",
+        "icon": "https://img.icons8.com/color/48/000000/docker.png"
+    },
+    {
         "name": "ReactJS",
         "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png"
     },
@@ -66,5 +114,5 @@
     {
         "name": "Team Work",
         "icon": "https://img.icons8.com/color/48/000000/teamwork.png"
-    }   
+    }
 ]

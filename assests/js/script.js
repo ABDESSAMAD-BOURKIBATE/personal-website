@@ -1,28 +1,28 @@
-$(document).ready(function(){
+$(document).ready(function () {
 
-    $('#menu').click(function(){
+    $('#menu').click(function () {
         $(this).toggleClass('fa-times');
         $('.navbar').toggleClass('nav-toggle');
     });
 
-    $(window).on('scroll load',function(){
+    $(window).on('scroll load', function () {
         $('#menu').removeClass('fa-times');
         $('.navbar').removeClass('nav-toggle');
 
-        if(window.scrollY>60){
+        if (window.scrollY > 60) {
             document.querySelector('#scroll-top').classList.add('active');
-        }else{
+        } else {
             document.querySelector('#scroll-top').classList.remove('active');
         }
 
         // scroll spy
-        $('section').each(function(){
+        $('section').each(function () {
             let height = $(this).height();
             let offset = $(this).offset().top - 200;
             let top = $(window).scrollTop();
             let id = $(this).attr('id');
 
-            if(top>offset && top<offset+height){
+            if (top > offset && top < offset + height) {
                 $('.navbar ul li a').removeClass('active');
                 $('.navbar').find(`[href="#${id}"]`).addClass('active');
             }
@@ -30,71 +30,96 @@ $(document).ready(function(){
     });
 
     // smooth scrolling
-    $('a[href*="#"]').on('click',function(e){
+    $('a[href*="#"]').on('click', function (e) {
         e.preventDefault();
         $('html, body').animate({
-            scrollTop : $($(this).attr('href')).offset().top,
-        },500, 'linear')
+            scrollTop: $($(this).attr('href')).offset().top,
+        }, 500, 'linear')
     })
+    // Dark Mode Toggle
+    const themeToggle = document.getElementById('theme-toggle');
+    const body = document.body;
+
+    // Check for saved user preference
+    const currentTheme = localStorage.getItem('theme');
+    if (currentTheme) {
+        body.classList.add(currentTheme);
+        if (currentTheme === 'dark-mode') {
+            themeToggle.classList.replace('fa-moon', 'fa-sun');
+        }
+    }
+
+    themeToggle.addEventListener('click', () => {
+        body.classList.toggle('dark-mode');
+
+        if (body.classList.contains('dark-mode')) {
+            themeToggle.classList.replace('fa-moon', 'fa-sun');
+            localStorage.setItem('theme', 'dark-mode');
+        } else {
+            themeToggle.classList.replace('fa-sun', 'fa-moon');
+            localStorage.setItem('theme', '');
+        }
+    });
+
 });
 
 document.addEventListener('visibilitychange',
-function(){
-    if(document.visibilityState === "visible"){
-        document.title = "Portfolio | Avinash Anand";
-        $("#favicon").attr("href","assests/images/favicon.png");
-    }
-    else {
-        document.title = "Come Back To Portfolio";
-        
-    }
-});
+    function () {
+        if (document.visibilityState === "visible") {
+            document.title = "Portfolio | Abdessamad Bourkibate";
+            $("#favicon").attr("href", "assests/images/favicon.png");
+        }
+        else {
+            document.title = "Come Back To Portfolio";
+
+        }
+    });
 
 
 // <!-- typed js effect starts -->
-    var typed = new Typed(".typing-text", {
-        strings: ["Front End Devloper", "Back End Devloper", "Web Design"],
-        loop: true,
-        typeSpeed: 50,
-		backSpeed: 25,
-		backDelay: 500,
-      });
+var typed = new Typed(".typing-text", {
+    strings: ["Front End Developer", "Artificial Intelligence", "Cyber Security", "UI/UX Designer", "Problem Solver", "Tech Enthusiast", "Machine Learning", "Web Security Expert"],
+    loop: true,
+    typeSpeed: 50,
+    backSpeed: 25,
+    backDelay: 500,
+});
 // <!-- typed js effect ends -->
 
 // <!-- tilt js effect starts -->
-      VanillaTilt.init(document.querySelectorAll(".tilt"), {
-        max: 15,
-      });
+VanillaTilt.init(document.querySelectorAll(".tilt"), {
+    max: 15,
+});
 // <!-- tilt js effect ends -->
 
 
 // pre loader start
-function loader(){
+function loader() {
     document.querySelector('.loader-container').classList.add('fade-out');
 }
-function fadeOut(){
-    setInterval(loader,500);
+function fadeOut() {
+    setInterval(loader, 500);
 }
 window.onload = fadeOut;
 // pre loader end
 
 // disable developer mode
-document.onkeydown = function(e) {
-  if(e.keyCode == 123) {
-     return false;
-  }
-  if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
-     return false;
-  }
-  if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
-     return false;
-  }
-  if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
-     return false;
-  }
-  if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
-     return false;
-  }
+document.onkeydown = function (e) {
+    if (e.keyCode == 123) {
+        return false;
+    }
+    if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+        return false;
+    }
+    if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+        return false;
+    }
+    if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+        return false;
+    }
+    if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+        return false;
+    }
 }
 
 // Start of Tawk.to Live Chat
@@ -110,26 +135,48 @@ document.onkeydown = function(e) {
 // End of Tawk.to Live Chat
 
 async function fetchData(type = "skills") {
-    let response
-    type === "skills" ?
-        response = await fetch("skills.json")
-        :
-        response = await fetch("./projects/projects.json")
-    const data = await response.json();
-    return data;
+    let response;
+    try {
+        const cacheBuster = new Date().getTime();
+        if (type === "skills") {
+            response = await fetch(`skills.json?v=${cacheBuster}`);
+        } else {
+            response = await fetch(`./projects/projects.json?v=${cacheBuster}`);
+        }
+
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+
+        const data = await response.json();
+        return data;
+    } catch (error) {
+        console.error("Could not fetch data:", error);
+        return [];
+    }
 }
 
 function showSkills(skills) {
     let skillsContainer = document.getElementById("skillsContainer");
+    if (!skillsContainer) {
+        console.error("Skills container not found!");
+        return;
+    }
+
     let skillHTML = "";
+    if (skills.length === 0) {
+        skillsContainer.innerHTML = "<p style='color: white; text-align: center; width: 100%;'>No skills found or error loading.</p>";
+        return;
+    }
+
     skills.forEach(skill => {
         skillHTML += `
         <div class="bar">
               <div class="info">
-                <img src=${skill.icon} alt="skill" />
+                <img src="${skill.icon}" alt="skill" />
                 <span>${skill.name}</span>
               </div>
-            </div>`
+            </div>`;
     });
     skillsContainer.innerHTML = skillHTML;
 }
@@ -149,42 +196,45 @@ const srtop = ScrollReveal({
 });
 
 /* SCROLL HOME */
-srtop.reveal('.home .content h3',{delay: 200}); 
-srtop.reveal('.home .content p',{delay: 200}); 
-srtop.reveal('.home .content .btn',{delay: 200}); 
+srtop.reveal('.home .content h3', { delay: 200 });
+srtop.reveal('.home .content p', { delay: 200 });
+srtop.reveal('.home .content .btn', { delay: 200 });
 
-srtop.reveal('.home .image',{delay: 400}); 
-srtop.reveal('.home .linkedin',{interval: 600}); 
-srtop.reveal('.home .github',{interval: 800}); 
-srtop.reveal('.home .twitter',{interval: 1000});
-srtop.reveal('.home .telegram',{interval: 600}); 
-srtop.reveal('.home .instagram',{interval: 600}); 
-srtop.reveal('.home .dev',{interval: 600}); 
+srtop.reveal('.home .image', { delay: 400 });
+srtop.reveal('.home .linkedin', { interval: 600 });
+srtop.reveal('.home .github', { interval: 800 });
+srtop.reveal('.home .twitter', { interval: 1000 });
+srtop.reveal('.home .telegram', { interval: 600 });
+srtop.reveal('.home .instagram', { interval: 600 });
+srtop.reveal('.home .dev', { interval: 600 });
 
 
 
 /* SCROLL ABOUT */
-srtop.reveal('.about .content h3',{delay: 300});
-srtop.reveal('.about .content .tag',{delay: 400}); 
-srtop.reveal('.about .content p',{delay: 300}); 
-srtop.reveal('.about .content .box-container',{delay: 300}); 
-srtop.reveal('.about .content .resumebtn',{delay: 300}); 
+srtop.reveal('.about .content h3', { delay: 300 });
+srtop.reveal('.about .content .tag', { delay: 400 });
+srtop.reveal('.about .content p', { delay: 300 });
+srtop.reveal('.about .content .box-container', { delay: 300 });
+srtop.reveal('.about .content .resumebtn', { delay: 300 });
 
 
 /* SCROLL SKILLS */
-srtop.reveal('.skills .container',{interval: 200}); 
-srtop.reveal('.skills .container .bar',{delay: 400}); 
+srtop.reveal('.skills .container', { interval: 200 });
+srtop.reveal('.skills .container .bar', { delay: 400 });
 
 /* SCROLL EDUCATION */
-srtop.reveal('.education .box',{interval: 200}); 
+srtop.reveal('.education .box', { interval: 200 });
+
+/* SCROLL PUBLICATIONS */
+srtop.reveal('.publications .pub-card', { interval: 300 });
 
 /* SCROLL PROJECTS */
-srtop.reveal('.work .box',{interval: 200}); 
+srtop.reveal('.work .box', { interval: 200 });
 
 /* SCROLL EXPERIENCE */
-srtop.reveal('.experience .timeline',{delay: 400});
-srtop.reveal('.experience .timeline .container',{interval: 400}); 
+srtop.reveal('.experience .timeline', { delay: 400 });
+srtop.reveal('.experience .timeline .container', { interval: 400 });
 
 /* SCROLL CONTACT */
-srtop.reveal('.contact .container',{delay: 400});
-srtop.reveal('.contact .container .form-group',{delay: 400});
+srtop.reveal('.contact .container', { delay: 400 });
+srtop.reveal('.contact .container .form-group', { delay: 400 });
