@@ -49,7 +49,77 @@ $(document).ready(function () {
         }
     }
 
-    themeToggle.addEventListener('click', () => {
+    // Theme Toggle Logic with Drag functionality
+    let isDragging = false;
+    let hasMoved = false;
+    let startX, startY, initialLeft, initialTop;
+
+    function handleStart(e) {
+        hasMoved = false;
+        const clientX = e.type.includes('touch') ? e.touches[0].clientX : e.clientX;
+        const clientY = e.type.includes('touch') ? e.touches[0].clientY : e.clientY;
+
+        startX = clientX;
+        startY = clientY;
+
+        const rect = themeToggle.getBoundingClientRect();
+        initialLeft = rect.left;
+        initialTop = rect.top;
+
+        // Remove transition during drag to avoid lag
+        themeToggle.style.transition = 'none';
+
+        if (e.type === 'mousedown') {
+            document.addEventListener('mousemove', handleMove);
+            document.addEventListener('mouseup', handleEnd);
+        } else {
+            document.addEventListener('touchmove', handleMove);
+            document.addEventListener('touchend', handleEnd);
+        }
+    }
+
+    function handleMove(e) {
+        const clientX = e.type.includes('touch') ? e.touches[0].clientX : e.clientX;
+        const clientY = e.type.includes('touch') ? e.touches[0].clientY : e.clientY;
+
+        const dx = clientX - startX;
+        const dy = clientY - startY;
+
+        if (Math.abs(dx) > 5 || Math.abs(dy) > 5) {
+            hasMoved = true;
+            isDragging = true;
+            themeToggle.style.cursor = 'grabbing';
+            // Disable right positioning and set explicit left/top
+            themeToggle.style.right = 'auto';
+            themeToggle.style.left = `${initialLeft + dx}px`;
+            themeToggle.style.top = `${initialTop + dy}px`;
+        }
+    }
+
+    function handleEnd() {
+        themeToggle.style.cursor = 'grab';
+        themeToggle.style.transition = 'all 0.3s ease'; // Restore transition
+
+        document.removeEventListener('mousemove', handleMove);
+        document.removeEventListener('mouseup', handleEnd);
+        document.removeEventListener('touchmove', handleMove);
+        document.removeEventListener('touchend', handleEnd);
+
+        // Reset dragging flag after a short delay to allow click event to be blocked
+        setTimeout(() => {
+            isDragging = false;
+        }, 100);
+    }
+
+    themeToggle.addEventListener('mousedown', handleStart);
+    themeToggle.addEventListener('touchstart', handleStart);
+
+    themeToggle.addEventListener('click', (e) => {
+        if (hasMoved) {
+            e.preventDefault();
+            return;
+        }
+
         body.classList.toggle('dark-mode');
 
         if (body.classList.contains('dark-mode')) {
@@ -192,7 +262,7 @@ const srtop = ScrollReveal({
     origin: 'top',
     distance: '80px',
     duration: 1000,
-    reset: true
+    reset: false
 });
 
 /* SCROLL HOME */
