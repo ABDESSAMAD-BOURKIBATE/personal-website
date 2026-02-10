@@ -456,73 +456,130 @@ header .navbar ul li a:hover {
   margin-top: 1.5rem;
   font-family: "Nunito";
   font-weight: 600;
+  text-align: justify;
+  /* Justify text */
 }
 
 .about .row .content .box-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  /* Responsive grid */
   gap: 1.5rem;
-  font-family: "Nunito";
-  font-weight: 600;
   margin-top: 2rem;
 }
 
 .about .row .content .box-container .box {
-  background: linear-gradient(135deg, rgba(99, 102, 241, 0.1) 0%, rgba(168, 85, 247, 0.1) 100%);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(99, 102, 241, 0.3);
-  border-radius: 1.5rem;
-  padding: 2rem;
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  position: relative;
-  overflow: hidden;
-}
-
-.about .row .content .box-container .box::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
-  transition: 0.5s;
-}
-
-.about .row .content .box-container .box:hover::before {
-  left: 100%;
+  background: white;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  /* More compact */
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  cursor: default;
 }
 
 .about .row .content .box-container .box:hover {
-  transform: translateY(-8px) scale(1.02);
-  box-shadow: 0 20px 40px rgba(99, 102, 241, 0.3);
-  border-color: rgba(168, 85, 247, 0.6);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  border-color: rgba(168, 85, 247, 0.3);
 }
 
-.about .row .content .box-container .box p {
-  text-transform: none;
-  font-size: 1.4rem;
-  line-height: 1.6;
-}
-
-.about .row .content .box-container .box p span {
-  color: #6366f1;
-  font-weight: 700;
-  display: flex;
-  align-items: center;
-  gap: 0.8rem;
-  margin-bottom: 0.5rem;
-  font-size: 1.5rem;
-}
-
-.about .row .content .box-container .box p span i {
+.about .row .content .box-container .box .icon {
+  height: 4.5rem;
+  /* Smaller icon */
+  width: 4.5rem;
+  line-height: 4.5rem;
+  text-align: center;
+  border-radius: 50%;
+  background: #f0f0f0;
+  /* Default gray */
+  color: #555;
   font-size: 1.8rem;
-  color: #8b5cf6;
-  background: linear-gradient(135deg, #6366f1, #a855f7);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  flex-shrink: 0;
+  transition: all 0.3s ease;
 }
+
+.about .row .content .box-container .box:hover .icon {
+  background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
+  color: #fff;
+}
+
+.about .row .content .box-container .box .text h3 {
+  font-size: 1.2rem;
+  color: #777;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 0.2rem;
+  transition: color 0.3s;
+}
+
+.about .row .content .box-container .box:hover .text h3 {
+  color: #8b5cf6;
+}
+
+.about .row .content .box-container .box .text p {
+  font-size: 1.4rem;
+  color: #444;
+  font-weight: 600;
+  word-break: break-all;
+  /* Prevent breaking */
+  text-transform: none;
+}
+
+/* Dark Mode Overrides for New About Cards */
+body.dark-mode .about .row .content .box-container .box {
+  background: rgba(45, 27, 78, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+body.dark-mode .about .row .content .box-container .box .icon {
+  background: rgba(255, 255, 255, 0.1);
+  color: #bbb;
+}
+
+body.dark-mode .about .row .content .box-container .box:hover .icon {
+  background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
+  color: #fff;
+}
+
+body.dark-mode .about .row .content .box-container .box .text h3 {
+  color: #aaa;
+}
+
+body.dark-mode .about .row .content .box-container .box:hover .text h3 {
+  color: #e0c3fc;
+}
+
+body.dark-mode .about .row .content .box-container .box .text p {
+  color: #ddd !important;
+}
+
+/* Resume Button Styling Update */
+.resumebtn .btn {
+  background: transparent;
+  color: #333;
+  border: 2px solid #8ec5fc;
+  box-shadow: none;
+}
+
+body.dark-mode .resumebtn .btn {
+  color: #fff;
+  border-color: #8b5cf6;
+}
+
+.resumebtn .btn:hover {
+  background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
+  color: #fff;
+  border-color: transparent;
+  box-shadow: 0 5px 15px rgba(142, 197, 252, 0.4);
+}
+
+
 
 .resumebtn {
   margin-top: 6rem;
@@ -2575,4 +2632,111 @@ body.dark-mode .pub-btn {
 /* Skill Bars */
 body.dark-mode .skills .container .bar {
   background: rgba(255, 255, 255, 0.05) !important;
+}
+
+/* Certifications Section */
+.certifications {
+  background: #f0fdfa;
+  min-height: 100vh;
+  padding-top: 2rem;
+}
+
+.certifications .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem;
+  padding: 2rem 0;
+}
+
+.certifications .box-container .box {
+  flex: 1 1 30rem;
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.certifications .box-container .box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+.certifications .box-container .box .image {
+  height: 22rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.certifications .box-container .box .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+
+.certifications .box-container .box:hover .image img {
+  transform: scale(1.1);
+}
+
+.certifications .box-container .box .content {
+  padding: 2rem;
+  position: relative;
+  text-align: center;
+}
+
+.certifications .box-container .box .content h3 {
+  font-size: 2.2rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.certifications .box-container .box .content p {
+  font-size: 1.5rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.certifications .box-container .box .content .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.8rem 1.8rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  border-radius: 5rem;
+  font-size: 1.4rem;
+  transition: 0.3s;
+  margin-top: 1rem;
+}
+
+.certifications .box-container .box .content .btn:hover {
+  background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+  transform: scale(1.05);
+}
+
+/* Certifications Dark Mode Overrides */
+body.dark-mode .certifications {
+  background: linear-gradient(to bottom, #0f0c29, #302b63) !important;
+}
+
+body.dark-mode .certifications .box-container .box {
+  background: rgba(45, 27, 78, 0.6) !important;
+  /* Glassmorphism */
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode .certifications .box-container .box .content h3 {
+  color: #fff !important;
+}
+
+body.dark-mode .certifications .box-container .box .content p {
+  color: #ccc !important;
 }
