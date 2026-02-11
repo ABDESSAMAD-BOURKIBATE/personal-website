@@ -358,21 +358,8 @@ header .navbar ul li a:hover {
   background-color: #0685da;
 }
 
-.social-icons a.twitter:hover {
-  background-color: #00aced;
-}
-
-.social-icons a.linkedin:hover {
-  background-color: #007bb6;
-}
-
-.social-icons a.dev:hover {
-  background-color: #070707;
-}
-
-
-.social-icons a.instagram:hover {
-  background-color: #0685da;
+.social-icons a.researchgate:hover {
+  background-color: #00CCBB;
 }
 
 .social-icons a.orcid:hover {
@@ -387,8 +374,8 @@ header .navbar ul li a:hover {
   background-color: #ffa116;
 }
 
-.social-icons a.telegram:hover {
-  background-color: #0088cc;
+.social-icons a.facebook:hover {
+  background-color: #1877f2;
 }
 
 /* social icons end */
@@ -442,13 +429,13 @@ header .navbar ul li a:hover {
   width: 30rem;
   border-radius: 5%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
-  mix-blend-mode: luminosity;
+  filter: grayscale(100%);
   transition: 0.3s;
   cursor: pointer;
 }
 
 .about .row .image img:hover {
-  mix-blend-mode: normal;
+  filter: grayscale(0%);
 }
 
 .about .row .content {
