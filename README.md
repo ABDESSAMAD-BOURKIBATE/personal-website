@@ -1,40 +1,74 @@
-## Portfolio-Website
+<div align="center">
+  <img src="./assests/images/favicon.png" alt="Logo" width="100" height="100">
+  <br>
+  <h1>🚀 Abdessamad Bourkibate | Professional Portfolio</h1>
+  <p>
+    <strong>Interdisciplinary Computer Science Student | Cybersecurity & AI Enthusiast</strong>
+  </p>
+  <p>
+    Welcome to the repository of my personal portfolio website, designed to showcase my academic background, technical skills, projects, and research publications.
+  </p>
+  
+  <a href="https://abdessamad-bourkibate.github.io/personal-website/"><img src="https://img.shields.io/badge/Website-Visit%20Now-2ea44f?style=for-the-badge&logo=vercel" alt="Website"/></a>
+  <a href="https://github.com/ABDESSAMAD-BOURKIBATE/personal-website/stargazers"><img src="https://img.shields.io/github/stars/ABDESSAMAD-BOURKIBATE/personal-website?style=for-the-badge&color=blue" alt="Stars"/></a>
+  <a href="https://github.com/ABDESSAMAD-BOURKIBATE/personal-website/network/members"><img src="https://img.shields.io/github/forks/ABDESSAMAD-BOURKIBATE/personal-website?style=for-the-badge&color=orange" alt="Forks"/></a>
+</div>
 
-<a href="https://github.com/AvinashAnand02/Avinash-Portfolio"><img src="https://sloc.xyz/github/AvinashAnand02/Avinash-Portfolio" alt="LOC"/></a>
-<a href="https://github.com/AvinashAnand02/Avinash-Portfolio"><img src="https://img.shields.io/github/stars/AvinashAnand02/Avinash-Portfolio" alt="Stars Badge"/></a>
-<a href="https://github.com/AvinashAnand02/Avinash-Portfolio/network/members"><img src="https://img.shields.io/github/forks/AvinashAnand02/Avinash-Portfolio" alt="Forks Badge"/></a>
-<a href="https://github.com/AvinashAnand02/Avinash-Portfolio/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/AvinashAnand02/Avinash-Portfolio?color=2b9348"></a>
+## 🌐 Overview
 
-Portfolio website build using HTML5, CSS3, JavaScript and jQuery.
+This repository contains the source code for my professional portfolio, which serves as a central hub for my digital identity. It provides a comprehensive view of my educational journey, technical proficiency, professional experiences, and interdisciplinary research.
 
-<h2> Website: 
-<a href="https://avinash02.netlify.app/" target="_blank">Visit Now🚀</a>
-</h2> 
+The architecture emphasizes performance, clean code, and a fully responsive user interface to guarantee an optimal user experience across all devices.
 
-## 📌 Tech Stack:
-[![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)]
-[![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)]
-[![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)]
-<img alt="jQuery" src="https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white"/>
+## 🛠️ Tech Stack & Architecture
 
-## 📌 Sneak Peek of Main Page:
-![mockup720](https://github.com/AvinashAnand02/Avinash-Portfolio/blob/main/assests/images/Screenshot%20(5).png)
-![skillsmockup](https://github.com/AvinashAnand02/Avinash-Portfolio/blob/main/assests/images/Screenshot%20(6).png)
-
-
-<h2>📬 Contact</h2>
-
-If you want to contact me, you can reach me through below social handles.
+This project is built using modern web development standards:
 
 <div align="center">
 
-<a  href="https://www.youtube.com/channel/UCmqNIRWLzwhPCuZUYd5Oxeg" target="_blank"><img alt="YouTube" src="https://img.shields.io/badge/Youtube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" /></a>
-<a  href="https://www.linkedin.com/in/abdessamad-bourkibate-b17717350/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="https://twitter.com/Bakkas52870643" target="_blank"><img src="https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white&alt=twitter" /></a>
-<a href="mailto:bourkibate.abdessamad@gmail.com"><img  alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+| Domain | Technologies |
+| :--- | :--- |
+| **Frontend Core** | ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) |
+| **Build Tool** | ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) |
+| **Deployment** | ![GitHub Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white) |
+| **Design / UI** | Font Awesome, Custom Animations, Particles.js |
+
 </div>
 
-© 2026 Abdessamad Bourkibate ❤️
+> **Performance Note**: The site is optimized with Vite for fast local development and production builds, ensuring lightning-fast load times.
 
+## 🚀 Key Features
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+*   **Interactive UI/UX**: Dynamic animations, glassmorphism elements, and smooth scrolling for a premium feel.
+*   **Comprehensive Sections**: Home, About, Skills, Education, Publications, Projects, Experience, and Contact.
+*   **Research Integration**: Dedicated section highlighting published papers in fields like Cybersecurity, Machine Learning, and Ethics (e.g., TechRxiv, IEEE).
+*   **Responsive Architecture**: Fluidly adapts to mobile, tablet, and desktop screens for a cohesive cross-platform experience.
+*   **Contact Form**: Integrated with EmailJS/Formspree for seamless, direct communication.
+
+## 👤 About the Developer
+
+**Abdessamad Bourkibate**  
+I'm currently pursuing a Bachelor of Computer Science at University of the People (USA), alongside academic studies at Al-Madinah International University (Malaysia). My focus lies in **cybersecurity**, **artificial intelligence**, digital systems, and solving complex interdisciplinary problems by bridging technology with ethical, legal, and governance frameworks.
+
+## 📬 Connect with Me
+
+I am always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
+
+<div align="center">
+
+<br/>
+
+<a href="https://www.linkedin.com/in/abdessamad-bourkibate-b17717350/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://github.com/ABDESSAMAD-BOURKIBATE" target="_blank"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
+<a href="https://scholar.google.com/citations?user=g9xg-vYAAAAJ&hl=fr" target="_blank"><img alt="Google Scholar" src="https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white" /></a>
+<a href="mailto:bourkibate.abdessamad@gmail.com" target="_blank"><img alt="Email" src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="https://orcid.org/0009-0000-6186-8071" target="_blank"><img alt="ORCID" src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" /></a>
+<a href="https://leetcode.com/u/bourkibate-abdessamad/" target="_blank"><img alt="LeetCode" src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /></a>
+
+</div>
+
+---
+<div align="center">
+  <p>© 2026 <strong>Abdessamad Bourkibate</strong>. All rights reserved.</p>
+  <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="Built with Love"/>
+</div>
