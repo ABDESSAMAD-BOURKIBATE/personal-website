@@ -210,6 +210,8 @@ async function fetchData(type = "skills") {
         const cacheBuster = new Date().getTime();
         if (type === "skills") {
             response = await fetch(`skills.json?v=${cacheBuster}`);
+        } else if (type === "education") {
+            response = await fetch(`education.json?v=${cacheBuster}`);
         } else {
             response = await fetch(`./projects/projects.json?v=${cacheBuster}`);
         }
@@ -251,8 +253,47 @@ function showSkills(skills) {
     skillsContainer.innerHTML = skillHTML;
 }
 
-fetchData().then(data => {
+fetchData("skills").then(data => {
     showSkills(data);
+});
+
+function showEducation(educationList) {
+    let educationContainer = document.getElementById("educationContainer");
+    if (!educationContainer) return;
+
+    let html = "";
+    if (educationList.length === 0) {
+        educationContainer.innerHTML = "<p style='text-align: center; width: 100%;'>No education data found or error loading.</p>";
+        return;
+    }
+
+    educationList.forEach(item => {
+        html += `
+        <div class="box tilt" >
+          <div class="image">
+            <a href="${item.url}" target="_blank">
+              <img draggable="false" src="${item.logo}" alt="${item.institution}">
+            </a>
+          </div>
+          <div class="content">
+            <h3>${item.degree}</h3>
+            <p>${item.institution}</p>
+            <h4>${item.date}</h4>
+          </div>
+        </div>`;
+    });
+    educationContainer.innerHTML = html;
+
+    // re-initialize tilt for new dynamic elements
+    if (typeof VanillaTilt !== "undefined") {
+        VanillaTilt.init(document.querySelectorAll("#educationContainer .box.tilt"), {
+            max: 15,
+        });
+    }
+}
+
+fetchData("education").then(data => {
+    showEducation(data);
 });
 
 
