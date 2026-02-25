@@ -1,0 +1,30 @@
+[
+    {
+        "degree": "Bachelor of Computer Science",
+        "institution": "University of the People (USA)",
+        "date": "Pursuing",
+        "logo": "./assests/images/image.png",
+        "url": "https://www.uopeople.edu/"
+    },
+    {
+        "degree": "Bachelor of Quranic Sciences",
+        "institution": "Al-Madinah International University (Malaysia)",
+        "date": "Pursuing",
+        "logo": "./assests/images/mediu.png",
+        "url": "https://www.mediu.edu.my/"
+    },
+    {
+        "degree": "Technicien Spécialisé en Électricité de Maintenance Industrielle",
+        "institution": "OFPPT (Morocco)",
+        "date": "Oct 2022 - June 2024",
+        "logo": "./assests/images/ofptt-formation-maroc.png",
+        "url": "https://www.ofppt.ma/"
+    },
+    {
+        "degree": "Aspire Leaders Program",
+        "institution": "Aspire Institute",
+        "date": "Feb 2026 - Apr 2026",
+        "logo": "./assests/images/aspire_leaders_program_logo.jpg",
+        "url": "https://aspireinstitute.org/"
+    }
+]
