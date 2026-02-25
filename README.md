@@ -1,24 +1,28 @@
 <div align="center">
-  <img src="./assests/images/favicon.png" alt="Logo" width="100" height="100">
+  <img src="https://raw.githubusercontent.com/ABDESSAMAD-BOURKIBATE/personal-website/main/assests/images/myimage.png" alt="Abdessamad Bourkibate" width="180" height="180" style="border-radius: 50%; border: 4px solid #a855f7; box-shadow: 0 10px 25px rgba(168, 85, 247, 0.4);">
   <br>
-  <h1>🚀 Abdessamad Bourkibate | Professional Portfolio</h1>
-  <p>
-    <strong>Interdisciplinary Computer Science Student | Cybersecurity & AI Enthusiast</strong>
-  </p>
-  <p>
-    Welcome to the repository of my personal portfolio website, designed to showcase my academic background, technical skills, projects, and research publications.
-  </p>
   
-  <a href="https://abdessamad-bourkibate.github.io/personal-website/"><img src="https://img.shields.io/badge/Website-Visit%20Now-2ea44f?style=for-the-badge&logo=vercel" alt="Website"/></a>
-  <a href="https://github.com/ABDESSAMAD-BOURKIBATE/personal-website/stargazers"><img src="https://img.shields.io/github/stars/ABDESSAMAD-BOURKIBATE/personal-website?style=for-the-badge&color=blue" alt="Stars"/></a>
-  <a href="https://github.com/ABDESSAMAD-BOURKIBATE/personal-website/network/members"><img src="https://img.shields.io/github/forks/ABDESSAMAD-BOURKIBATE/personal-website?style=for-the-badge&color=orange" alt="Forks"/></a>
+  <h1 align="center" style="font-family: 'Poppins', sans-serif; background: linear-gradient(90deg, #8b5cf6, #ec4899); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">🧠 Abdessamad Bourkibate</h1>
+  
+  <h3 align="center" style="font-weight: 300; letter-spacing: 2px; color: #64748b;">
+    <em>Unlocking Potential at the Intersection of Mind & Machine</em>
+  </h3>
+  
+  <p align="center" style="font-size: 1.1rem; line-height: 1.8; color: #334155; max-width: 600px; margin: 0 auto;">
+    <strong>Interdisciplinary Visionary | Cybersecurity Analyst | AI Architect</strong><br>
+    Bridging cognitive psychology and advanced computing to design secure, intuitive, and human-centric digital ecosystems.
+  </p>
+  <br>
+  
+  <a href="https://abdessamad-bourkibate.github.io/personal-website/"><img src="https://img.shields.io/badge/Website-Explore_My_Mind-ec4899?style=for-the-badge&logo=vercel" alt="Website"/></a>
+  <a href="https://github.com/ABDESSAMAD-BOURKIBATE/personal-website/stargazers"><img src="https://img.shields.io/github/stars/ABDESSAMAD-BOURKIBATE/personal-website?style=for-the-badge&color=8b5cf6" alt="Stars"/></a>
 </div>
 
-## 🌐 Overview
+## 🌐 The Synergy of Disciplines
 
-This repository contains the source code for my professional portfolio, which serves as a central hub for my digital identity. It provides a comprehensive view of my educational journey, technical proficiency, professional experiences, and interdisciplinary research.
+This repository is more than code; it is a **cognitive map** of my professional journey. Here, I synthesize my educational endeavors, technical mastery, and cutting-edge research.
 
-The architecture emphasizes performance, clean code, and a fully responsive user interface to guarantee an optimal user experience across all devices.
+Every architectural decision in this portfolio is driven by the principles of **cognitive load theory** and **Human-Computer Interaction (HCI)**—ensuring a seamless, empowering experience for the user.
 
 ## 🛠️ Tech Stack & Architecture
 
