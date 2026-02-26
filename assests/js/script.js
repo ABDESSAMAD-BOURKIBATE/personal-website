@@ -342,8 +342,21 @@ srtop.reveal('.publications .pub-card', { interval: 300 });
 srtop.reveal('.work .box', { interval: 200 });
 
 /* SCROLL EXPERIENCE */
-srtop.reveal('.experience .timeline', { delay: 400 });
-srtop.reveal('.experience .timeline .container', { interval: 400 });
+srtop.reveal('.experience .timeline', { delay: 300 });
+srtop.reveal('.experience .timeline .container.left', {
+  origin: 'left',
+  distance: '100px',
+  duration: 1200,
+  interval: 300,
+  easing: 'cubic-bezier(0.5, 0, 0, 1)',
+});
+srtop.reveal('.experience .timeline .container.right', {
+  origin: 'right',
+  distance: '100px',
+  duration: 1200,
+  interval: 300,
+  easing: 'cubic-bezier(0.5, 0, 0, 1)',
+});
 
 /* SCROLL CONTACT */
 srtop.reveal('.contact .container', { delay: 400 });
