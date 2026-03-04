@@ -11,7 +11,7 @@
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=280&section=header&text=Abdessamad%20Bourkibate&fontSize=52&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Unlocking%20Potential%20at%20the%20Intersection%20of%20Mind%20%26%20Machine&descSize=18&descAlignY=55&descAlign=50" alt="Header Banner"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:4a00e0,100:8e2de2&height=220&section=header&text=Abdessamad%20Bourkibate&fontSize=48&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Unlocking%20Potential%20at%20the%20Intersection%20of%20Mind%20%26%20Machine&descSize=16&descAlignY=55&descAlign=50" alt="Header Banner"/>
 
 </div>
 
@@ -22,7 +22,7 @@
 <div align="center">
 
 <a href="https://abdessamad-bourkibate.github.io/personal-website/">
-<img src="https://raw.githubusercontent.com/ABDESSAMAD-BOURKIBATE/personal-website/main/assests/images/myimage.png" alt="Abdessamad Bourkibate" width="200" height="200" style="border-radius: 50%;"/>
+<img src="https://raw.githubusercontent.com/ABDESSAMAD-BOURKIBATE/personal-website/main/assests/images/myimage.png" alt="Abdessamad Bourkibate" width="160" height="160" style="border-radius: 50%;"/>
 </a>
 
 <br/>
@@ -1635,4 +1635,4 @@ If you find my work helpful or interesting, please consider giving it a ⭐!
 <!-- ░░░░░░░░░░░░░░░░░  ANIMATED WAVE FOOTER BANNER  ░░░░░░░░░░░░░░░░░░ -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=footer" alt="Footer Wave"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:4a00e0,100:8e2de2&height=120&section=footer" alt="Footer Wave"/>
