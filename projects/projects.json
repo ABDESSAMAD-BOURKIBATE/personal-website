@@ -32,5 +32,22 @@
             "view": "https://abdessamad-bourkibate.github.io/Human-Insight-AI/",
             "code": "https://github.com/ABDESSAMAD-BOURKIBATE/Human-Insight-AI"
         }
+    },
+    {
+        "id": 3,
+        "name": "Bubble Slingshot",
+        "desc": "A revolutionary take on the classic bubble shooter, entirely controlled by your hands and guided by artificial intelligence.",
+        "image": "/assests/images/projects/C1.png",
+        "badge": "AI / Game",
+        "tags": [
+            "React",
+            "MediaPipe",
+            "Gemini AI",
+            "TailwindCSS"
+        ],
+        "links": {
+            "view": "https://abdessamad-bourkibate.github.io/Bubble-Slingshot/",
+            "code": "https://github.com/ABDESSAMAD-BOURKIBATE/Bubble-Slingshot"
+        }
     }
 ]

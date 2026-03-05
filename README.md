@@ -586,6 +586,66 @@ Fun_Fact: "I bridge psychology with code"
 
 <br/>
 
+<table align="center" border="0">
+<tr>
+<td width="50%" valign="top">
+
+<!-- ═══════════════════ PROJECT 3: Bubble Slingshot ═══════════════════ -->
+
+<div align="center">
+
+### 🎯 Bubble Slingshot
+
+<img src="https://img.shields.io/badge/🔴_LIVE-Demo_Available-success?style=for-the-badge" alt="Live"/>
+
+<br/>
+<br/>
+
+<a href="https://abdessamad-bourkibate.github.io/Bubble-Slingshot/">
+<img src="https://raw.githubusercontent.com/ABDESSAMAD-BOURKIBATE/personal-website/main/assests/images/projects/C1.png" width="350" alt="Bubble Slingshot"/>
+</a>
+
+</div>
+
+<br/>
+
+> 🎮 **AI-Powered 3D Slingshot Experience** — A revolutionary take on the classic bubble shooter, entirely controlled by your hands and guided by artificial intelligence.
+
+**Key Features:**
+- 🖐️ Hand Gesture Recognition via webcam
+- 🧠 Gemini AI powered dynamic difficulty
+- 🌊 Immersive "flow state" experience
+- 🌐 Next-generation browser game
+- 🎨 Modern responsive UI
+
+<br/>
+
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&amp;logo=react&amp;logoColor=black"/>
+<img src="https://img.shields.io/badge/MediaPipe-00B2A9?style=flat-square&amp;logo=google&amp;logoColor=white"/>
+<img src="https://img.shields.io/badge/Gemini_AI-8E75B2?style=flat-square&amp;logo=google&amp;logoColor=white"/>
+<img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat-square&amp;logo=tailwind-css&amp;logoColor=white"/>
+
+<br/>
+<br/>
+
+<a href="https://abdessamad-bourkibate.github.io/Bubble-Slingshot/">
+<img src="https://img.shields.io/badge/🌐_Live_Demo-4CAF50?style=for-the-badge" alt="Demo"/>
+</a>
+<a href="https://github.com/ABDESSAMAD-BOURKIBATE/Bubble-Slingshot">
+<img src="https://img.shields.io/badge/💻_Source_Code-181717?style=for-the-badge&amp;logo=github" alt="Code"/>
+</a>
+
+</td>
+<td width="50%" valign="top">
+
+<!-- Add a fourth project here -->
+
+</td>
+</tr>
+</table>
+
+<br/>
+
 <!-- ═══════════════════ PROJECT ARCHITECTURE DIAGRAM ═══════════════════ -->
 
 <details>
