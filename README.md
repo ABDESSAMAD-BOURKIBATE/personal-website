@@ -9,11 +9,10 @@
 <!-- ░░░░░░░░░░░░░░░░░  ANIMATED WAVE HEADER BANNER  ░░░░░░░░░░░░░░░░░░░ -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-<div align="center">
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:4a00e0,100:8e2de2&amp;height=220&amp;section=header&amp;text=Abdessamad%20Bourkibate&amp;fontSize=48&amp;fontColor=ffffff&amp;animation=twinkling&amp;fontAlignY=35&amp;desc=Unlocking%20Potential%20at%20the%20Intersection%20of%20Mind%20%26%20Machine&amp;descSize=16&amp;descAlignY=55&amp;descAlign=50" alt="Header Banner"/>
-
-</div>
+<br/>
+<h1 align="center">Hi there 👋, I'm Abdessamad Bourkibate</h1>
+<h3 align="center">Unlocking Potential at the Intersection of Mind & Machine</h3>
+<br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 <!-- ░░░░░░░░░░░░░░░░░░░░░  PROFILE PICTURE  ░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
