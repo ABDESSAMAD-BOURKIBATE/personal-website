@@ -30,7 +30,7 @@
 <!-- ═══════════════════ ANIMATED TYPING SVG ═══════════════════ -->
 
 <a href="https://git.io/typing-svg">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=700&amp;size=28&amp;duration=3000&amp;pause=1000&amp;color=A855F7&amp;center=true&amp;vCenter=true&amp;multiline=true&amp;repeat=true&amp;width=800&amp;height=100&amp;lines=%F0%9F%94%90+Cybersecurity+Analyst+%7C+%F0%9F%A4%96+AI+Architect;%F0%9F%A7%A0+Cognitive+Scientist+%7C+%F0%9F%8C%90+Interdisciplinary+Visionary;%F0%9F%93%9A+Published+Researcher+%7C+%F0%9F%92%BB+Full-Stack+Developer" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=700&amp;size=22&amp;duration=3000&amp;pause=1000&amp;color=A855F7&amp;center=true&amp;vCenter=true&amp;multiline=true&amp;repeat=true&amp;width=900&amp;height=120&amp;lines=%F0%9F%94%90+Cybersecurity+Analyst+%7C+%F0%9F%A4%96+AI+Architect;%F0%9F%A7%A0+Cognitive+Scientist+%7C+%F0%9F%8C%90+Interdisciplinary+Visionary;%F0%9F%93%9A+Published+Researcher+%7C+%F0%9F%92%BB+Full-Stack+Developer" alt="Typing SVG" />
 </a>
 
 <br/>
