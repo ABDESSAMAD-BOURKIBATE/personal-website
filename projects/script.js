@@ -41,33 +41,44 @@ function getProjects() {
 
 
 function showProjects(projects) {
-    let projectsContainer = document.querySelector(".work .box-container");
+    let projectsContainer = document.querySelector(".work .projects-grid");
     let projectsHTML = "";
     projects.forEach(project => {
+        const tagsHTML = project.tags ? project.tags.map(tag => `<span>${tag}</span>`).join('') : '';
+        const badge = project.badge || 'AI';
+
         projectsHTML += `
-        <div class="box tilt">
-      <img draggable="false" src="${project.image}" alt="" />
-      <div class="content">
-        <div class="tag">
-        <h3>${project.name}</h3>
-        </div>
-        <div class="desc">
-          <p>${project.desc}</p>
-          <div class="btns">
-            <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+        <div class="project-card">
+          <div class="project-image">
+            <img draggable="false" src="${project.image}" alt="${project.name}" />
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="${project.links.view}" class="project-link-btn" target="_blank" title="Live Demo">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a href="${project.links.code}" class="project-link-btn" target="_blank" title="Source Code">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <div class="project-badge">${badge}</div>
           </div>
-        </div>
-      </div>
-    </div>`
+          <div class="project-info">
+            <h3 class="project-title">${project.name}</h3>
+            <p class="project-desc">${project.desc}</p>
+            <div class="project-tags">${tagsHTML}</div>
+            <div class="project-actions">
+              <a href="${project.links.view}" class="project-btn primary" target="_blank">
+                <i class="fas fa-eye"></i> Live Demo
+              </a>
+              <a href="${project.links.code}" class="project-btn secondary" target="_blank">
+                <i class="fas fa-code"></i> Code
+              </a>
+            </div>
+          </div>
+        </div>`;
     });
     projectsContainer.innerHTML = projectsHTML;
-
-    // vanilla tilt.js
-    VanillaTilt.init(document.querySelectorAll(".tilt"), {
-        max: 20,
-    });
-    // vanilla tilt.js  
 
     /* ===== SCROLL REVEAL ANIMATION ===== */
     const srtop = ScrollReveal({
@@ -78,25 +89,13 @@ function showProjects(projects) {
     });
 
     /* SCROLL PROJECTS */
-    srtop.reveal('.work .box', { interval: 200 });
+    srtop.reveal('.project-card', { interval: 200 });
 }
 
 getProjects().then(data => {
     showProjects(data);
 })
 // fetch projects end
-
-// Start of Tawk.to Live Chat
-// var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-//   (function(){
-//   var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-//   s1.async=true;
-//   s1.src='https://embed.tawk.to/62c99a01b0d10b6f3e7b8fde/1g7ho36lj';
-//   s1.charset='UTF-8';
-//   s1.setAttribute('crossorigin','*');
-//   s0.parentNode.insertBefore(s1,s0);
-//   })();
-// End of Tawk.to Live Chat
 
 // disable developer mode
 document.onkeydown = function (e) {
