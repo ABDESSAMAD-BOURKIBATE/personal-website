@@ -305,11 +305,11 @@ Fun_Fact: "I bridge psychology with code"
 <!-- ═══════════════════ STATS CARDS ROW 1 ═══════════════════ -->
 
 <a href="https://github.com/ABDESSAMAD-BOURKIBATE">
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ABDESSAMAD-BOURKIBATE&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=ec4899&text_color=c9d1d9&count_private=true&include_all_commits=true)
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=ABDESSAMAD-BOURKIBATE&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=ec4899&text_color=c9d1d9&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
 </a>
 &nbsp;
 <a href="https://github.com/ABDESSAMAD-BOURKIBATE">
-![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=ABDESSAMAD-BOURKIBATE&theme=radical&hide_border=true&background=0d1117&ring=a855f7&fire=ec4899&currStreakLabel=a855f7&sideLabels=c9d1d9&dates=555555)
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=ABDESSAMAD-BOURKIBATE&theme=radical&hide_border=true&background=0d1117&ring=a855f7&fire=ec4899&currStreakLabel=a855f7&sideLabels=c9d1d9&dates=555555" alt="Streak Stats"/>
 </a>
 
 <br/>
@@ -318,7 +318,7 @@ Fun_Fact: "I bridge psychology with code"
 <!-- ═══════════════════ TOP LANGUAGES ═══════════════════ -->
 
 <a href="https://github.com/ABDESSAMAD-BOURKIBATE">
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ABDESSAMAD-BOURKIBATE&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=a855f7&text_color=c9d1d9&langs_count=10)
+<img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ABDESSAMAD-BOURKIBATE&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=a855f7&text_color=c9d1d9&langs_count=10" alt="Top Languages"/>
 </a>
 
 <br/>
@@ -326,7 +326,7 @@ Fun_Fact: "I bridge psychology with code"
 
 <!-- ═══════════════════ TROPHIES ═══════════════════ -->
 
-![Trophies](https://github-profile-trophy.vercel.app/?username=ABDESSAMAD-BOURKIBATE&theme=radical&no-frame=true&no-bg=true&margin-w=10&margin-h=10&column=7)
+<img src="https://github-profile-trophy.vercel.app/?username=ABDESSAMAD-BOURKIBATE&theme=radical&no-frame=true&no-bg=true&margin-w=10&margin-h=10&column=7" alt="Trophies" width="98%"/>
 
 </div>
 
