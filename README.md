@@ -31,32 +31,32 @@
 <!-- ═══════════════════ ANIMATED TYPING SVG ═══════════════════ -->
 
 <a href="https://git.io/typing-svg">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=A855F7&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=%F0%9F%94%90+Cybersecurity+Analyst+%7C+%F0%9F%A4%96+AI+Architect;%F0%9F%A7%A0+Cognitive+Scientist+%7C+%F0%9F%8C%90+Interdisciplinary+Visionary;%F0%9F%93%9A+Published+Researcher+%7C+%F0%9F%92%BB+Full-Stack+Developer" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=700&amp;size=28&amp;duration=3000&amp;pause=1000&amp;color=A855F7&amp;center=true&amp;vCenter=true&amp;multiline=true&amp;repeat=true&amp;width=800&amp;height=100&amp;lines=%F0%9F%94%90+Cybersecurity+Analyst+%7C+%F0%9F%A4%96+AI+Architect;%F0%9F%A7%A0+Cognitive+Scientist+%7C+%F0%9F%8C%90+Interdisciplinary+Visionary;%F0%9F%93%9A+Published+Researcher+%7C+%F0%9F%92%BB+Full-Stack+Developer" alt="Typing SVG" />
 </a>
 
 <br/>
 
 <!-- ═══════════════════ ANIMATED BADGES ROW ═══════════════════ -->
 
-<img src="https://img.shields.io/badge/Focus-Cybersecurity%20%26%20AI-blueviolet?style=for-the-badge&logo=hackaday&logoColor=white" alt="Focus"/>
+<img src="https://img.shields.io/badge/Focus-Cybersecurity%20%26%20AI-blueviolet?style=for-the-badge&amp;logo=hackaday&amp;logoColor=white" alt="Focus"/>
 &nbsp;
-<img src="https://img.shields.io/badge/Location-Morocco%20🇲🇦-success?style=for-the-badge&logo=google-maps&logoColor=white" alt="Location"/>
+<img src="https://img.shields.io/badge/Location-Morocco%20🇲🇦-success?style=for-the-badge&amp;logo=google-maps&amp;logoColor=white" alt="Location"/>
 &nbsp;
-<img src="https://img.shields.io/badge/Languages-Arabic%20·%20French%20·%20English-orange?style=for-the-badge&logo=duolingo&logoColor=white" alt="Languages"/>
+<img src="https://img.shields.io/badge/Languages-Arabic%20·%20French%20·%20English-orange?style=for-the-badge&amp;logo=duolingo&amp;logoColor=white" alt="Languages"/>
 
 <br/>
 <br/>
 
 <!-- ═══════════════════ PROFILE VIEWS & STARS ═══════════════════ -->
 
-<img src="https://komarev.com/ghpvc/?username=ABDESSAMAD-BOURKIBATE&label=Profile%20Views&color=blueviolet&style=for-the-badge" alt="Profile Views"/>
+<img src="https://komarev.com/ghpvc/?username=ABDESSAMAD-BOURKIBATE&amp;label=Profile%20Views&amp;color=blueviolet&amp;style=for-the-badge" alt="Profile Views"/>
 &nbsp;
 <a href="https://github.com/ABDESSAMAD-BOURKIBATE/personal-website/stargazers">
-<img src="https://img.shields.io/github/stars/ABDESSAMAD-BOURKIBATE/personal-website?style=for-the-badge&color=f59e0b&logo=github" alt="Stars"/>
+<img src="https://img.shields.io/github/stars/ABDESSAMAD-BOURKIBATE/personal-website?style=for-the-badge&amp;color=f59e0b&amp;logo=github" alt="Stars"/>
 </a>
 &nbsp;
 <a href="https://github.com/ABDESSAMAD-BOURKIBATE?tab=followers">
-<img src="https://img.shields.io/github/followers/ABDESSAMAD-BOURKIBATE?style=for-the-badge&color=8b5cf6&logo=github" alt="Followers"/>
+<img src="https://img.shields.io/github/followers/ABDESSAMAD-BOURKIBATE?style=for-the-badge&amp;color=8b5cf6&amp;logo=github" alt="Followers"/>
 </a>
 
 </div>
@@ -167,7 +167,7 @@ Fun_Fact: "I bridge psychology with code"
 
 <!-- ═══════════════════ ACTIVITY GRAPH ═══════════════════ -->
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ABDESSAMAD-BOURKIBATE&bg_color=0d1117&color=a855f7&line=ec4899&point=f59e0b&area=true&area_color=a855f7&hide_border=true&custom_title=📈%20Contribution%20Activity%20Graph" width="98%" alt="Activity Graph"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ABDESSAMAD-BOURKIBATE&amp;bg_color=0d1117&amp;color=a855f7&amp;line=ec4899&amp;point=f59e0b&amp;area=true&amp;area_color=a855f7&amp;hide_border=true&amp;custom_title=📈%20Contribution%20Activity%20Graph" width="98%" alt="Activity Graph"/>
 
 </div>
 
@@ -183,7 +183,7 @@ Fun_Fact: "I bridge psychology with code"
 <!-- ║                  🛠️ TECH STACK & SKILLS                             ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
 
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="30px"/> &nbsp;Tech Stack & Skills
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&amp;rid=giphy.gif" width="30px"/> &nbsp;Tech Stack & Skills
 
 <br/>
 
@@ -195,16 +195,16 @@ Fun_Fact: "I bridge psychology with code"
 
 <br/>
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
-<img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn"/>
-<img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" alt="Keras"/>
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
-<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV"/>
-<img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face"/>
-<img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="Python"/>
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&amp;logo=tensorflow&amp;logoColor=white" alt="TensorFlow"/>
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch"/>
+<img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&amp;logo=scikit-learn&amp;logoColor=white" alt="Scikit-Learn"/>
+<img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&amp;logo=keras&amp;logoColor=white" alt="Keras"/>
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&amp;logo=pandas&amp;logoColor=white" alt="Pandas"/>
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&amp;logo=numpy&amp;logoColor=white" alt="NumPy"/>
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&amp;logo=opencv&amp;logoColor=white" alt="OpenCV"/>
+<img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&amp;logo=huggingface&amp;logoColor=black" alt="Hugging Face"/>
+<img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&amp;logo=ollama&amp;logoColor=white" alt="Ollama"/>
 
 <br/>
 <br/>
@@ -215,14 +215,14 @@ Fun_Fact: "I bridge psychology with code"
 
 <br/>
 
-<img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white" alt="Kali Linux"/>
-<img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark"/>
-<img src="https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white" alt="Metasploit"/>
-<img src="https://img.shields.io/badge/Nmap-4682B4?style=for-the-badge&logo=nmap&logoColor=white" alt="Nmap"/>
-<img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white" alt="Burp Suite"/>
-<img src="https://img.shields.io/badge/Cryptography-2E8B57?style=for-the-badge&logo=letsencrypt&logoColor=white" alt="Cryptography"/>
-<img src="https://img.shields.io/badge/OWASP-000000?style=for-the-badge&logo=owasp&logoColor=white" alt="OWASP"/>
-<img src="https://img.shields.io/badge/Network_Security-4B0082?style=for-the-badge&logo=cisco&logoColor=white" alt="Network Security"/>
+<img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&amp;logo=kalilinux&amp;logoColor=white" alt="Kali Linux"/>
+<img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&amp;logo=wireshark&amp;logoColor=white" alt="Wireshark"/>
+<img src="https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&amp;logo=metasploit&amp;logoColor=white" alt="Metasploit"/>
+<img src="https://img.shields.io/badge/Nmap-4682B4?style=for-the-badge&amp;logo=nmap&amp;logoColor=white" alt="Nmap"/>
+<img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&amp;logo=burpsuite&amp;logoColor=white" alt="Burp Suite"/>
+<img src="https://img.shields.io/badge/Cryptography-2E8B57?style=for-the-badge&amp;logo=letsencrypt&amp;logoColor=white" alt="Cryptography"/>
+<img src="https://img.shields.io/badge/OWASP-000000?style=for-the-badge&amp;logo=owasp&amp;logoColor=white" alt="OWASP"/>
+<img src="https://img.shields.io/badge/Network_Security-4B0082?style=for-the-badge&amp;logo=cisco&amp;logoColor=white" alt="Network Security"/>
 
 <br/>
 <br/>
@@ -233,16 +233,16 @@ Fun_Fact: "I bridge psychology with code"
 
 <br/>
 
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/>
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
-<img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" alt="jQuery"/>
-<img src="https://img.shields.io/badge/Material_UI-007FFF?style=for-the-badge&logo=mui&logoColor=white" alt="Material UI"/>
-<img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"/>
-<img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap"/>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&amp;logo=html5&amp;logoColor=white" alt="HTML5"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&amp;logo=css3&amp;logoColor=white" alt="CSS3"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&amp;logo=javascript&amp;logoColor=black" alt="JavaScript"/>
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&amp;logo=react&amp;logoColor=black" alt="React"/>
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&amp;logo=nodedotjs&amp;logoColor=white" alt="Node.js"/>
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&amp;logo=fastapi&amp;logoColor=white" alt="FastAPI"/>
+<img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&amp;logo=jquery&amp;logoColor=white" alt="jQuery"/>
+<img src="https://img.shields.io/badge/Material_UI-007FFF?style=for-the-badge&amp;logo=mui&amp;logoColor=white" alt="Material UI"/>
+<img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&amp;logo=vite&amp;logoColor=white" alt="Vite"/>
+<img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&amp;logo=bootstrap&amp;logoColor=white" alt="Bootstrap"/>
 
 <br/>
 <br/>
@@ -253,13 +253,13 @@ Fun_Fact: "I bridge psychology with code"
 
 <br/>
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
-<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
-<img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C"/>
-<img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL"/>
-<img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="Python"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&amp;logo=javascript&amp;logoColor=black" alt="JavaScript"/>
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&amp;logo=openjdk&amp;logoColor=white" alt="Java"/>
+<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&amp;logo=cplusplus&amp;logoColor=white" alt="C++"/>
+<img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&amp;logo=c&amp;logoColor=black" alt="C"/>
+<img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&amp;logo=postgresql&amp;logoColor=white" alt="SQL"/>
+<img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&amp;logo=gnubash&amp;logoColor=white" alt="Bash"/>
 
 <br/>
 <br/>
@@ -270,18 +270,18 @@ Fun_Fact: "I bridge psychology with code"
 
 <br/>
 
-<img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="GCP"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-<img src="https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white" alt="GitHub Pages"/>
-<img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" alt="Heroku"/>
-<img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Netlify"/>
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
-<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma"/>
-<img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code"/>
-<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman"/>
+<img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&amp;logo=googlecloud&amp;logoColor=white" alt="GCP"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&amp;logo=docker&amp;logoColor=white" alt="Docker"/>
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&amp;logo=git&amp;logoColor=white" alt="Git"/>
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub"/>
+<img src="https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&amp;logo=githubpages&amp;logoColor=white" alt="GitHub Pages"/>
+<img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&amp;logo=heroku&amp;logoColor=white" alt="Heroku"/>
+<img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&amp;logo=netlify&amp;logoColor=white" alt="Netlify"/>
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&amp;logo=linux&amp;logoColor=black" alt="Linux"/>
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&amp;logo=mongodb&amp;logoColor=white" alt="MongoDB"/>
+<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&amp;logo=figma&amp;logoColor=white" alt="Figma"/>
+<img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&amp;logo=visualstudiocode&amp;logoColor=white" alt="VS Code"/>
+<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&amp;logo=postman&amp;logoColor=white" alt="Postman"/>
 
 </div>
 
@@ -306,11 +306,11 @@ Fun_Fact: "I bridge psychology with code"
 <!-- ═══════════════════ STATS CARDS ROW 1 ═══════════════════ -->
 
 <a href="https://github.com/ABDESSAMAD-BOURKIBATE">
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=ABDESSAMAD-BOURKIBATE&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=ec4899&text_color=c9d1d9&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=ABDESSAMAD-BOURKIBATE&amp;show_icons=true&amp;theme=radical&amp;hide_border=true&amp;bg_color=0d1117&amp;title_color=a855f7&amp;icon_color=ec4899&amp;text_color=c9d1d9&amp;count_private=true&amp;include_all_commits=true" alt="GitHub Stats"/>
 </a>
 &nbsp;
 <a href="https://github.com/ABDESSAMAD-BOURKIBATE">
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=ABDESSAMAD-BOURKIBATE&theme=radical&hide_border=true&background=0d1117&ring=a855f7&fire=ec4899&currStreakLabel=a855f7&sideLabels=c9d1d9&dates=555555" alt="Streak Stats"/>
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=ABDESSAMAD-BOURKIBATE&amp;theme=radical&amp;hide_border=true&amp;background=0d1117&amp;ring=a855f7&amp;fire=ec4899&amp;currStreakLabel=a855f7&amp;sideLabels=c9d1d9&amp;dates=555555" alt="Streak Stats"/>
 </a>
 
 <br/>
@@ -319,7 +319,7 @@ Fun_Fact: "I bridge psychology with code"
 <!-- ═══════════════════ TOP LANGUAGES ═══════════════════ -->
 
 <a href="https://github.com/ABDESSAMAD-BOURKIBATE">
-<img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ABDESSAMAD-BOURKIBATE&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=a855f7&text_color=c9d1d9&langs_count=10" alt="Top Languages"/>
+<img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ABDESSAMAD-BOURKIBATE&amp;layout=compact&amp;theme=radical&amp;hide_border=true&amp;bg_color=0d1117&amp;title_color=a855f7&amp;text_color=c9d1d9&amp;langs_count=10" alt="Top Languages"/>
 </a>
 
 <br/>
@@ -327,7 +327,7 @@ Fun_Fact: "I bridge psychology with code"
 
 <!-- ═══════════════════ TROPHIES ═══════════════════ -->
 
-<img src="https://github-profile-trophy.vercel.app/?username=ABDESSAMAD-BOURKIBATE&theme=radical&no-frame=true&no-bg=true&margin-w=10&margin-h=10&column=7" alt="Trophies" width="98%"/>
+<img src="https://github-profile-trophy.vercel.app/?username=ABDESSAMAD-BOURKIBATE&amp;theme=radical&amp;no-frame=true&amp;no-bg=true&amp;margin-w=10&amp;margin-h=10&amp;column=7" alt="Trophies" width="98%"/>
 
 </div>
 
@@ -360,7 +360,7 @@ Fun_Fact: "I bridge psychology with code"
 <table align="center" border="0">
 <tr>
 <td width="80px" align="center">
-<img src="https://img.shields.io/badge/01-8b5cf6?style=for-the-badge&logo=bookstack&logoColor=white" alt="01"/>
+<img src="https://img.shields.io/badge/01-8b5cf6?style=for-the-badge&amp;logo=bookstack&amp;logoColor=white" alt="01"/>
 </td>
 <td>
 
@@ -368,7 +368,7 @@ Fun_Fact: "I bridge psychology with code"
 
 **A Centrality-Based Mitigation Framework**
 
-<img src="https://img.shields.io/badge/Platform-TechRxiv-blue?style=flat-square&logo=ieee&logoColor=white" alt="TechRxiv"/>
+<img src="https://img.shields.io/badge/Platform-TechRxiv-blue?style=flat-square&amp;logo=ieee&amp;logoColor=white" alt="TechRxiv"/>
 <img src="https://img.shields.io/badge/Year-2026-brightgreen?style=flat-square" alt="2026"/>
 <img src="https://img.shields.io/badge/Status-Preprint-orange?style=flat-square" alt="Preprint"/>
 <img src="https://img.shields.io/badge/DOI-10.36227%2Ftechrxiv.176948811-informational?style=flat-square" alt="DOI"/>
@@ -378,10 +378,10 @@ Fun_Fact: "I bridge psychology with code"
 `Cybersecurity` `Graph Theory` `Family Safety` `Network Centrality` `Sociotechnical Systems`
 
 <a href="https://www.techrxiv.org/users/1019596/articles/1379866-quantifying-vulnerability-in-sociotechnical-family-systems-a-centrality-based-mitigation-framework">
-<img src="https://img.shields.io/badge/📖_View_Paper-4CAF50?style=for-the-badge&logoColor=white" alt="View"/>
+<img src="https://img.shields.io/badge/📖_View_Paper-4CAF50?style=for-the-badge&amp;logoColor=white" alt="View"/>
 </a>
 <a href="https://www.techrxiv.org/users/1019596/articles/1379866/master/file/data/Family_Cyber_Immunity_Paper/Family_Cyber_Immunity_Paper.pdf">
-<img src="https://img.shields.io/badge/📥_Download_PDF-FF5722?style=for-the-badge&logoColor=white" alt="PDF"/>
+<img src="https://img.shields.io/badge/📥_Download_PDF-FF5722?style=for-the-badge&amp;logoColor=white" alt="PDF"/>
 </a>
 
 </td>
@@ -395,7 +395,7 @@ Fun_Fact: "I bridge psychology with code"
 <table align="center" border="0">
 <tr>
 <td width="80px" align="center">
-<img src="https://img.shields.io/badge/02-ec4899?style=for-the-badge&logo=bookstack&logoColor=white" alt="02"/>
+<img src="https://img.shields.io/badge/02-ec4899?style=for-the-badge&amp;logo=bookstack&amp;logoColor=white" alt="02"/>
 </td>
 <td>
 
@@ -403,7 +403,7 @@ Fun_Fact: "I bridge psychology with code"
 
 **Re-Engineering Digital Immunity Through Embedded Network Isolation and the Axiological Dimension of Privacy**
 
-<img src="https://img.shields.io/badge/Platform-SSRN-blue?style=flat-square&logo=elsevier&logoColor=white" alt="SSRN"/>
+<img src="https://img.shields.io/badge/Platform-SSRN-blue?style=flat-square&amp;logo=elsevier&amp;logoColor=white" alt="SSRN"/>
 <img src="https://img.shields.io/badge/Year-2026-brightgreen?style=flat-square" alt="2026"/>
 <img src="https://img.shields.io/badge/Status-Preprint-orange?style=flat-square" alt="Preprint"/>
 <img src="https://img.shields.io/badge/SSRN_ID-5935436-informational?style=flat-square" alt="SSRN ID"/>
@@ -413,10 +413,10 @@ Fun_Fact: "I bridge psychology with code"
 `Cybersecurity` `Network Isolation` `Privacy` `Digital Sovereignty` `WPA3`
 
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5935436">
-<img src="https://img.shields.io/badge/📖_View_Paper-4CAF50?style=for-the-badge&logoColor=white" alt="View"/>
+<img src="https://img.shields.io/badge/📖_View_Paper-4CAF50?style=for-the-badge&amp;logoColor=white" alt="View"/>
 </a>
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5935436">
-<img src="https://img.shields.io/badge/📥_Download_PDF-FF5722?style=for-the-badge&logoColor=white" alt="PDF"/>
+<img src="https://img.shields.io/badge/📥_Download_PDF-FF5722?style=for-the-badge&amp;logoColor=white" alt="PDF"/>
 </a>
 
 </td>
@@ -430,7 +430,7 @@ Fun_Fact: "I bridge psychology with code"
 <table align="center" border="0">
 <tr>
 <td width="80px" align="center">
-<img src="https://img.shields.io/badge/03-f59e0b?style=for-the-badge&logo=bookstack&logoColor=white" alt="03"/>
+<img src="https://img.shields.io/badge/03-f59e0b?style=for-the-badge&amp;logo=bookstack&amp;logoColor=white" alt="03"/>
 </td>
 <td>
 
@@ -438,7 +438,7 @@ Fun_Fact: "I bridge psychology with code"
 
 **A Non-Equilibrium Thermodynamic Framework for Reinforcement Learning Optimization**
 
-<img src="https://img.shields.io/badge/Platform-Research_Square-blue?style=flat-square&logo=researchgate&logoColor=white" alt="Research Square"/>
+<img src="https://img.shields.io/badge/Platform-Research_Square-blue?style=flat-square&amp;logo=researchgate&amp;logoColor=white" alt="Research Square"/>
 <img src="https://img.shields.io/badge/Year-2026-brightgreen?style=flat-square" alt="2026"/>
 <img src="https://img.shields.io/badge/Status-Preprint-orange?style=flat-square" alt="Preprint"/>
 <img src="https://img.shields.io/badge/ID-rs--8812364%2Fv1-informational?style=flat-square" alt="RS ID"/>
@@ -448,10 +448,10 @@ Fun_Fact: "I bridge psychology with code"
 `LLMs` `Reinforcement Learning` `Thermodynamics` `Optimization` `PPO`
 
 <a href="https://www.researchsquare.com/article/rs-8812364/v1">
-<img src="https://img.shields.io/badge/📖_View_Paper-4CAF50?style=for-the-badge&logoColor=white" alt="View"/>
+<img src="https://img.shields.io/badge/📖_View_Paper-4CAF50?style=for-the-badge&amp;logoColor=white" alt="View"/>
 </a>
 <a href="https://www.researchsquare.com/article/rs-8812364/v1">
-<img src="https://img.shields.io/badge/📥_Download_PDF-FF5722?style=for-the-badge&logoColor=white" alt="PDF"/>
+<img src="https://img.shields.io/badge/📥_Download_PDF-FF5722?style=for-the-badge&amp;logoColor=white" alt="PDF"/>
 </a>
 
 </td>
@@ -516,11 +516,11 @@ Fun_Fact: "I bridge psychology with code"
 
 <br/>
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/BERT-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
-<img src="https://img.shields.io/badge/SVM-FF6F00?style=flat-square&logo=scikit-learn&logoColor=white"/>
-<img src="https://img.shields.io/badge/NLP-009688?style=flat-square&logo=spacy&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white"/>
+<img src="https://img.shields.io/badge/BERT-FFD21E?style=flat-square&amp;logo=huggingface&amp;logoColor=black"/>
+<img src="https://img.shields.io/badge/SVM-FF6F00?style=flat-square&amp;logo=scikit-learn&amp;logoColor=white"/>
+<img src="https://img.shields.io/badge/NLP-009688?style=flat-square&amp;logo=spacy&amp;logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=black"/>
 
 <br/>
 <br/>
@@ -529,7 +529,7 @@ Fun_Fact: "I bridge psychology with code"
 <img src="https://img.shields.io/badge/🌐_Live_Demo-4CAF50?style=for-the-badge" alt="Demo"/>
 </a>
 <a href="https://github.com/ABDESSAMAD-BOURKIBATE/Scam-Religious-Detection">
-<img src="https://img.shields.io/badge/💻_Source_Code-181717?style=for-the-badge&logo=github" alt="Code"/>
+<img src="https://img.shields.io/badge/💻_Source_Code-181717?style=for-the-badge&amp;logo=github" alt="Code"/>
 </a>
 
 </td>
@@ -565,11 +565,11 @@ Fun_Fact: "I bridge psychology with code"
 
 <br/>
 
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
-<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-<img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white"/>
-<img src="https://img.shields.io/badge/AI-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=black"/>
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&amp;logo=fastapi&amp;logoColor=white"/>
+<img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&amp;logo=ollama&amp;logoColor=white"/>
+<img src="https://img.shields.io/badge/AI-FF6F00?style=flat-square&amp;logo=tensorflow&amp;logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&amp;logo=css3&amp;logoColor=white"/>
 
 <br/>
 <br/>
@@ -578,7 +578,7 @@ Fun_Fact: "I bridge psychology with code"
 <img src="https://img.shields.io/badge/🌐_Live_Demo-4CAF50?style=for-the-badge" alt="Demo"/>
 </a>
 <a href="https://github.com/ABDESSAMAD-BOURKIBATE/Human-Insight-AI">
-<img src="https://img.shields.io/badge/💻_Source_Code-181717?style=for-the-badge&logo=github" alt="Code"/>
+<img src="https://img.shields.io/badge/💻_Source_Code-181717?style=for-the-badge&amp;logo=github" alt="Code"/>
 </a>
 
 </td>
@@ -909,7 +909,7 @@ Fun_Fact: "I bridge psychology with code"
 <tr>
 <td width="33%" align="center" valign="top">
 
-### 🛡️ Cybersecurity
+### <img src="https://img.shields.io/badge/🛡️_Cybersecurity-181717?style=for-the-badge&logo=kalilinux&logoColor=white" alt="Cybersecurity"/>
 
 <img src="https://img.shields.io/badge/🔒-Primary_Focus-a855f7?style=for-the-badge" alt="Primary"/>
 
@@ -938,7 +938,7 @@ Fun_Fact: "I bridge psychology with code"
 </td>
 <td width="33%" align="center" valign="top">
 
-### 🤖 Artificial Intelligence
+### <img src="https://img.shields.io/badge/🤖_Artificial_Intelligence-FF6F00?style=for-the-badge&logo=openai&logoColor=white" alt="AI"/>
 
 <img src="https://img.shields.io/badge/🧠-Core_Research-ec4899?style=for-the-badge" alt="Core"/>
 
@@ -967,7 +967,7 @@ Fun_Fact: "I bridge psychology with code"
 </td>
 <td width="33%" align="center" valign="top">
 
-### 🧠 Cognitive Science
+### <img src="https://img.shields.io/badge/🧠_Cognitive_Science-8b5cf6?style=for-the-badge&logo=psychology&logoColor=white" alt="Cognitive Science"/>
 
 <img src="https://img.shields.io/badge/🌐-Interdisciplinary-f59e0b?style=for-the-badge" alt="Interdisciplinary"/>
 
@@ -1061,7 +1061,7 @@ Fun_Fact: "I bridge psychology with code"
 <div align="center">
 
 <a href="https://abdessamad-bourkibate.github.io/personal-website/">
-<img src="https://img.shields.io/badge/🌐_Visit_My_Portfolio-a855f7?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
+<img src="https://img.shields.io/badge/🌐_Visit_My_Portfolio-a855f7?style=for-the-badge&amp;logo=vercel&amp;logoColor=white" alt="Portfolio"/>
 </a>
 
 </div>
@@ -1072,7 +1072,7 @@ Fun_Fact: "I bridge psychology with code"
 <tr>
 <td width="50%" valign="top">
 
-### ✨ Design & UX
+### <img src="https://img.shields.io/badge/✨_Design_&_UX-FF4B4B?style=for-the-badge&logo=figma&logoColor=white" alt="Design"/>
 
 - 🎨 **Glassmorphism UI** — Modern frosted-glass elements
 - 🌗 **Dark/Light Mode** — Smart theme toggle
@@ -1086,7 +1086,7 @@ Fun_Fact: "I bridge psychology with code"
 </td>
 <td width="50%" valign="top">
 
-### 📋 Sections & Content
+### <img src="https://img.shields.io/badge/📋_Sections_&_Content-005571?style=for-the-badge&logo=read-the-docs&logoColor=white" alt="Content"/>
 
 - 🏠 **Hero Section** — Animated intro with typing effect
 - 👤 **About Me** — Personal info & quick overview
@@ -1373,45 +1373,45 @@ Fun_Fact: "I bridge psychology with code"
 <br/>
 
 <a href="https://www.linkedin.com/in/abdessamad-bourkibate-b17717350/" target="_blank">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn"/>
 </a>
 &nbsp;
 <a href="https://github.com/ABDESSAMAD-BOURKIBATE" target="_blank">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub"/>
 </a>
 &nbsp;
-<a href="https://scholar.google.com/citations?user=g9xg-vYAAAAJ&hl=fr" target="_blank">
-<img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white" alt="Google Scholar"/>
+<a href="https://scholar.google.com/citations?user=g9xg-vYAAAAJ&amp;hl=fr" target="_blank">
+<img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&amp;logo=google-scholar&amp;logoColor=white" alt="Google Scholar"/>
 </a>
 &nbsp;
 <a href="mailto:bourkibate.abdessamad@gmail.com" target="_blank">
-<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email"/>
 </a>
 
 <br/>
 <br/>
 
 <a href="https://orcid.org/0009-0000-6186-8071" target="_blank">
-<img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID"/>
+<img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&amp;logo=orcid&amp;logoColor=white" alt="ORCID"/>
 </a>
 &nbsp;
 <a href="https://leetcode.com/u/bourkibate-abdessamad/" target="_blank">
-<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/>
+<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&amp;logo=leetcode&amp;logoColor=black" alt="LeetCode"/>
 </a>
 &nbsp;
 <a href="https://www.researchgate.net/profile/Abdessamad-Bourkibate-2" target="_blank">
-<img src="https://img.shields.io/badge/ResearchGate-00CCBB?style=for-the-badge&logo=researchgate&logoColor=white" alt="ResearchGate"/>
+<img src="https://img.shields.io/badge/ResearchGate-00CCBB?style=for-the-badge&amp;logo=researchgate&amp;logoColor=white" alt="ResearchGate"/>
 </a>
 &nbsp;
 <a href="https://web.facebook.com/abdessamad.bourkibate/" target="_blank">
-<img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"/>
+<img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&amp;logo=facebook&amp;logoColor=white" alt="Facebook"/>
 </a>
 
 <br/>
 <br/>
 
 <a href="https://abdessamad-bourkibate.github.io/personal-website/" target="_blank">
-<img src="https://img.shields.io/badge/🌐_Portfolio_Website-a855f7?style=for-the-badge&logo=vercel&logoColor=white" alt="Website"/>
+<img src="https://img.shields.io/badge/🌐_Portfolio_Website-a855f7?style=for-the-badge&amp;logo=vercel&amp;logoColor=white" alt="Website"/>
 </a>
 
 </div>
@@ -1561,15 +1561,15 @@ If you find my work helpful or interesting, please consider giving it a ⭐!
 <br/>
 
 <a href="https://github.com/ABDESSAMAD-BOURKIBATE/personal-website">
-<img src="https://img.shields.io/badge/⭐_Star_This_Repo-f59e0b?style=for-the-badge&logo=github&logoColor=black" alt="Star"/>
+<img src="https://img.shields.io/badge/⭐_Star_This_Repo-f59e0b?style=for-the-badge&amp;logo=github&amp;logoColor=black" alt="Star"/>
 </a>
 &nbsp;
 <a href="https://github.com/ABDESSAMAD-BOURKIBATE?tab=repositories">
-<img src="https://img.shields.io/badge/🔍_Explore_Repos-a855f7?style=for-the-badge&logo=github&logoColor=white" alt="Repos"/>
+<img src="https://img.shields.io/badge/🔍_Explore_Repos-a855f7?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Repos"/>
 </a>
 &nbsp;
 <a href="https://github.com/ABDESSAMAD-BOURKIBATE/personal-website/fork">
-<img src="https://img.shields.io/badge/🍴_Fork_Project-ec4899?style=for-the-badge&logo=github&logoColor=white" alt="Fork"/>
+<img src="https://img.shields.io/badge/🍴_Fork_Project-ec4899?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Fork"/>
 </a>
 
 </div>
@@ -1607,7 +1607,7 @@ If you find my work helpful or interesting, please consider giving it a ⭐!
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=4000&pause=1000&color=A855F7&center=true&vCenter=true&repeat=true&width=600&height=50&lines=Thank+you+for+visiting+my+profile!+%F0%9F%99%8F;Let's+build+something+amazing+together!+%F0%9F%9A%80;Star+%E2%AD%90+this+repo+if+you+liked+it!" alt="Footer Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=22&amp;duration=4000&amp;pause=1000&amp;color=A855F7&amp;center=true&amp;vCenter=true&amp;repeat=true&amp;width=600&amp;height=50&amp;lines=Thank+you+for+visiting+my+profile!+%F0%9F%99%8F;Let's+build+something+amazing+together!+%F0%9F%9A%80;Star+%E2%AD%90+this+repo+if+you+liked+it!" alt="Footer Typing SVG"/>
 
 <br/>
 <br/>
