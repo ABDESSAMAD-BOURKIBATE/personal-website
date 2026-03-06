@@ -49,5 +49,21 @@
             "view": "https://abdessamad-bourkibate.github.io/Bubble-Slingshot/",
             "code": "https://github.com/ABDESSAMAD-BOURKIBATE/Bubble-Slingshot"
         }
+    },
+    {
+        "id": 4,
+        "name": "TRIP REVIEW",
+        "desc": "This application is your ultimate guide to discovering the magic of Morocco, built with the latest web technologies to deliver a fast and seamless user experience.",
+        "image": "/assests/images/projects/trip.png",
+        "badge": "Web App",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JS"
+        ],
+        "links": {
+            "view": "https://abdessamad-bourkibate.github.io/geeks-sprint1/",
+            "code": "https://github.com/ABDESSAMAD-BOURKIBATE/geeks-sprint1"
+        }
     }
 ]
